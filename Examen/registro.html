@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="Regis.css"/>
+    </head>
+    <body>
+        <div id="Superior">
+            <a href="index.html">
+            <button id="logo"></button>
+        </a>
+        
+        <button id="ubi"></button>
+        
+        <input type="text" name="Buscar" id="Buscar" placeholder="Buscar" >
+            <a href="Busqueda.html">
+                <button id="lupa"></button>
+            </a>
+        </input>
+
+        <a href="inicioSesion.html">
+            <button id="maleU"></button>
+        </a>
+
+        <button id="camp"></button>
+
+        <a href="Carrito.html">
+            <button id="carrito"></button>
+        </a>
+        
+    </div>
+
+    <div id="Formulario">
+        <button id="regreso"></button>
+
+        <h1 id="titulo">Registro</h1>
+
+        <h3 id="nombre">Nombre</h3>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+
+        <h3 id="apellido">Apellido</h3>
+        <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+
+        <h3 id="correo">Correo electrónico</h3>
+        <input type="text" name="Correo" id="correo" placeholder="Escribe tu correo electrónico">
+
+        <h3 id="contra">Contraseña</h3>
+        <input type="password" name="Contraseña" id="contra" placeholder="Escribe tu contraseña">
+
+        <h3 id="contra2">Confirmar contraseña</h3>
+        <input type="password" name="Contraseña2" id="contra2" placeholder="Vuelve a escribe tu contraseña">
+
+        <h3 id="num">Numero de telefono</h3>
+        <input type="text" name="num" id="num" placeholder="Escribe tu telefono">
+
+        <h3 id="direccion">Direccion de envio</h3>
+        <input type="text" name="direccion" id="direccion" placeholder="Escribe tu direccion">
+
+        <br>
+        <button id="guardar" onclick="registrarUsuario()">GUARDAR</in>
+        <button id="cancelar">CANCELAR</button>
+
+        <br>
+        <h5 id="regis">¿Tienes cuenta? <a id="linkRegis" href="inicioSesion.html">Inicia sesión aquí!</a></h5>
+        
+        <script src="registro.js"></script>
+</body>
+</html>
